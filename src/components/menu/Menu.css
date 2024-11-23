@@ -1,0 +1,12 @@
+.menu__wrapper {
+  display: flex;
+  gap: 50px;
+  margin: 150px 0;
+}
+
+.menu__card h2 {
+  color: white;
+  font-family: Righteous;
+  font-weight: 400;
+  margin-bottom: 20px;
+}

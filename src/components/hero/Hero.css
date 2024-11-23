@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Righteous;
+  src: url(../../assets/fonts/righteous/Righteous-Regular.ttf);
+}
+
+@font-face {
+  font-family: Urbanist;
+  src: url(../../assets/fonts/urbanist/static/Urbanist-Medium.ttf);
+}
+
+.hero__img {
+  background: url(../../assets/images/hero.png) no-repeat center;
+  background-size: cover;
+  padding: 170px 0 170px;
+}
+
+.hero__info {
+  color: #ffffff;
+}
+
+.hero__info h1 {
+  width: 530px;
+  font-size: 72px;
+  font-family: Righteous;
+  line-height: 94px;
+}
+
+.hero__info p {
+  width: 510px;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 30px 0;
+  font-family: Urbanist;
+  text-transform: capitalize;
+}
+
+.hero__btn {
+  width: 195px;
+  height: 65px;
+  font-size: 18px;
+  font-weight: 700;
+  background: #c99e71;
+  color: #ffffff;
+  border: none;
+  font-family: Inter;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.hero__btn:hover {
+  background: #2421215e;
+  cursor: pointer;
+  border: 1px solid #c99e71;
+}
