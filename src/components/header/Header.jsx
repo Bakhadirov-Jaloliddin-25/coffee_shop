@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Logo from "../../assets/images/Logo.svg";
-import Search from "../../assets/images/Search.svg";
+import Search from "../../assets/images/search.svg";
 import ShoppingBag from "../../assets/images/shopping-bag.svg";
 
 const Header = () => {
