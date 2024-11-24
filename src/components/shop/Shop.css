@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.shop__wrapper p {
+.shop__wrapper .product__title {
   color: #c99e71;
   font-size: 18px;
   font-family: Urbanist;
@@ -29,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   background: #121315;
+  transition: 0.7s;
 }
 
 .product__rate {
@@ -45,15 +46,78 @@
   text-transform: uppercase;
 }
 
+.product__price {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px 0 0 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Urbanist;
+}
+
+.product__price span {
+  color: #c99e71;
+}
+
 .card__wrapper {
   display: flex;
 }
 
 .product_btn {
+  display: none;
+}
+
+.product__card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.product__card:hover .product_btn {
+  display: flex;
   background: #c99e71;
   color: #ffffff;
+  margin: 30px 0 0 0;
   padding: 10px 20px;
   border-radius: 1px;
   border: none;
   transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.product__card:hover .product__rate {
+  display: none;
+}
+
+.product__card:hover .product__info {
+  margin: 20px 0 0 0;
+}
+
+.btn__wwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__view__all {
+  width: 250px;
+  height: 60px;
+  margin: 0 0 50px 0;
+  background: #c99e71;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Inter;
+  transition: 0.5s;
+}
+
+.btn__view__all:hover {
+  background: #2421215e;
+  cursor: pointer;
+  border: 1px solid #c99e71;
+  transform: scale(1.1);
 }
