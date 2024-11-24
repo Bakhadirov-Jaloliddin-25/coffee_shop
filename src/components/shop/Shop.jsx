@@ -3,6 +3,7 @@ import "./Shop.css";
 import CoffeeBag from "../../assets/images/Rectangle 2.svg";
 import ShoppingBag from "../../assets/images/shopping-bag.svg";
 import Rate from "../../assets/images/rate.svg";
+import Machine from "../../assets/images/machine.svg";
 
 const Shop = () => {
   return (
@@ -62,6 +63,22 @@ const Shop = () => {
         </div>
         <div className="btn__wwrapper">
           <button className="btn__view__all">View all product</button>
+        </div>
+      </div>
+      <div className="shop__machine_wrapper">
+        <div className="machine__img">
+          <img src={Machine} alt="machine.svg" />
+        </div>
+        <div className="machine__info">
+          <h1 className="machine__title">Coffee machine, buy for home</h1>
+          <p>
+            mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit
+            ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt.
+            donec et nib maximus, est eu, mattis nuce. preasent ut quam quis
+            quam venen atis fri ngilla. morbi vastibulum id tells mmodo mattis.
+            aliauam erat volutpal.
+          </p>
+          <button className="machine__btn">Discover now</button>
         </div>
       </div>
     </>
