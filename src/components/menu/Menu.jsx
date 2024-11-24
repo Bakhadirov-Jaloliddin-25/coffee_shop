@@ -10,15 +10,21 @@ const Menu = () => {
       <div className="conrainer">
         <div className="menu__wrapper">
           <div className="menu__card">
-            <h2>Best Coffee Flavour</h2>
+            <h2>
+              <span>01</span> Best Coffee Flavour
+            </h2>
             <img src={cardImage1} alt="card image 1" />
           </div>
           <div className="menu__card">
-            <h2>Place to get lost</h2>
+            <h2>
+              <span>02</span> Place to get lost
+            </h2>
             <img src={cardImage2} alt="card image 2" />
           </div>
           <div className="menu__card">
-            <h2>Proper roesting</h2>
+            <h2>
+              <span>03</span> Proper roesting
+            </h2>
             <img src={cardImage3} alt="card image 3" />
           </div>
         </div>

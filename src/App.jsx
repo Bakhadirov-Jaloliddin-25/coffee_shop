@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Menu from "./components/menu/Menu";
-// import Product from "./components/menu/Product";
+import Shop from "./components/shop/Shop";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <div className="container">
         <Menu />
-        {/* <Product /> */}
+        <Shop />
       </div>
     </>
   );

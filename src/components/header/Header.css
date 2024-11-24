@@ -47,13 +47,11 @@
 
 .navbar__right {
   display: flex;
-  gap: 50px;
+  gap: 100px;
 }
 
 .header__icon {
   display: flex;
-  width: 30px;
-  height: 30px;
   gap: 50px;
   cursor: pointer;
 }
