@@ -7,7 +7,7 @@ import cardImage3 from "../../assets/images/Rectangle43.svg";
 const Menu = () => {
   return (
     <>
-      <div className="conrainer">
+      <div className="container">
         <div className="menu__wrapper">
           <div className="menu__card">
             <h2>

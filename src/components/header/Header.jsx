@@ -39,9 +39,13 @@ const Header = () => {
               <li>
                 <a href="#">Contract</a>
               </li>
-              <div className="header__icon">
-                <img src={Search} alt="Search.svg" />
-                <img src={ShoppingBag} alt="Shopping-bag.svg" />
+              <div className="header__icons">
+                <img className="header__icon" src={Search} alt="Search.svg" />
+                <img
+                  className="header__icon"
+                  src={ShoppingBag}
+                  alt="Shopping-bag.svg"
+                />
               </div>
             </ul>
           </div>

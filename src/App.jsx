@@ -10,10 +10,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <div className="container">
-        <Menu />
-        <Shop />
-      </div>
+      <Menu />
+      <Shop />
     </>
   );
 }
